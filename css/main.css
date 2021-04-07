@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0px;
+  cursor:pointer;
+  
+
+}
+
+.nav-list {
+  width: 70%;
+  /*background-color: black;*/
+  display: flex;
+  align-items: center;
+}
+
+.nav-list li {
+  list-style: none;
+  padding: 23px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-list a:hover {
+  text-decoration: none;
+  color: grey;
+}
+
+.rightNav {
+  width: 30%;
+  text-align: right;
+  padding: 0 23px;
+
+}
+
+.logo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 33%;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
+#search{
+  padding: 5px;
+  font-size: 16px;
+  border: 2px solid grey
+  border-radius:9px; 
+}
+
+.background{
+  background: rgba(0, 0, 0, 0.7) url("https://thumbs.dreamstime.com/b/assorted-indian-food-different-bowls-dark-wooden-background-top-view-dishes-appetizers-cuisine-chicken-curry-rice-129630877.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.box-main {
+  display: flex;
+  padding-left: 15px;
+  align-items: center;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+.Firstsection{
+  height: 50vh;
+  
+}
+.fHalf{
+width:80%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.sHalf img{
+  width:10%;
+  padding: 20px;
+  border: 4px;
+  border-radius: 20000px; 
+
+}
+
+.fHalf p{
+  color: white;
+}
+
+.text-big{
+  font-size: 41px;
+  text-align: center;
+
+
+}
+
+.text-small{
+  font-size: 18px;
+ text-align: center;
+
+}
+
+.btn{
+  padding: 8px 20px;
+  margin: 8px 3;
+  border: 2px solid white;
+  border-radius: 8px;
+  background:none;
+  color: white;
+  cursor:pointer;
+}
+
+.btn-sm{
+ padding: 5px 10px;
+ vertical-align: middle;
+}
+
+.sectiontwo{
+  display: flex;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  max-width: 80%;
+  margin:auto;
+}
+
+.navbar{
+  background: rgba(0, 0, 0, 0.7) url("https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.thumbNail{
+  padding-left: 500px;
+  align-items: flex-end;
+ 
+}
+
+h1{
+  font-family: 'New Tegomin', serif;
+  size: 49px;
+  align-content: center;
+  
+}
+
+.contactUs{
+  background: #D8F7FB;
+  height: auto;
+
+}
+
+.textcentre{
+  text-align: center;
+}
+
+.form{
+  max-width: 344px;
+  margin: auto;
+}
+
+.form-input{
+  margin: 30px 0px ;
+  width: 100%;
+  font-size: 19px;
+  border: 2px solid grey;
+  border-radius: 6px;
+  font-family: 'New Tegomin', serif;
+}
+
+.btn-dark{
+  color: black;
+  border: 2px solid black;
+}
+
+.footer{
+  text-align: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.burger{
+  display:none;
+  position: absolute;
+  cursor: pointer;
+  right: 5%;
+  top: 15px;
+
+}
+
+.line{
+  width: 33px;
+  background-color: white;
+  height: 4px;
+  margin: 5px 5px;
+}
+
+@media only screen and (max-width: 1045px){
+  .nav-list{
+    flex-direction: column;
+  }
+  .navbar{
+    flex-direction: column;
+    transition: all 3s ease-out;
+    height: 542px
+  }
+  .rightNav{
+    text-align: center;
+
+  }
+  #search{
+    width: 100%;
+  }
+
+  .burger{
+    display:block;
+}
+.h-nav{
+  height: 72px;
+}
+.v-class{
+  opacity: 0;
+}
+
+
+
+
+
+}
+
+.FirstSpeed{
+  height: 100vh;
+
+}
+
+.speedbg{
+  background: rgba(0, 0, 0, 0.7) url('https://images.unsplash.com/photo-1561474119-1b76f3a79816?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nnx8c3BlZWR0ZXN0fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'
+  );
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+p {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+p a{
+  text-decoration: none;
+  color: white;
+  
+}
+
+#Speedtest{
+  color: white; 
+  text-align: center;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 50px;
+}
+
+#bigfancytext{
+  text-align: center;
+  font-family: 'Dela Gothic One', cursive;
+  font-size: 50px;
+  text-decoration: solid black;
+}
+
+#smallfancytext{
+  color: black;
+  font-family: 'Dela Gothic One', cursive;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 35px;
+  
+}
+
+#smallfancytext a{
+  color: black;
+  text-decoration: none;
+  
+}
+
+.middlesection{
+  height: 50vh;
+}
+
+
+
+
+.locationhead{
+  text-align: center;
+  color:black;
+font-size: 30px;
+}
+
+.locationbg{
+  background: rgba(0, 0, 0, 0.7) url("https://images.pexels.com/photos/269874/pexels-photo-269874.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-size: cover;
+}
+
+#demo{
+  text-align: center;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+}
+
+
+#oneinst{
+  margin-top: 100px;
+}
+
+a{
+  color: solid black;
+  text-decoration: none;
+}
+
+a:visited{
+  color: black;
+}
+
+.centre{
+  align-items: center;
+}
